@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-10</title>
+    <style>
+        .main{
+            border: 17px solid;
+            border-color: #3b6170;
+            background-color: #3b6170;
+        }
+        form{
+            background-color: white;
+            border-radius: 10px;
+        }
+        thead {
+            font-size: xx-large;
+            font-family: cursive;
+            color: #676767 ;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <font color="#20bb95">
+            
+            <form oninput="output.value = salary.value +'k'">
+                <table width="100%">
+                    <thead align="center">
+                        <th colspan="2">Creat Account</th>
+                    </thead>
+                    <tr>
+                        <td>First name</td>
+                        <td>Last name</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="fname" required>
+                        </td>
+                        <td>
+                            <input type="text" name="lname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="email" name="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>Confirm Password</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="password" name="password" required>
+                        </td>
+                        <td>
+                            <input type="password" name="cpassword" required>
+                        </td>
+                    </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Hobbies</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Gender" value="male">Male
+                    <input type="radio" name="Gender" value="female">Female
+                </td>
+                <td>
+                    <input type="checkbox" name="checkbox" value="music">Music
+                    <input type="checkbox" name="checkbox" value="Sports">Sports
+                    <input type="checkbox" name="checkbox" value="Travel">Travel
+                    <input type="checkbox" name="checkbox" value="Movies">Movies
+                </td>
+            </tr>
+            <tr>
+                <td>Source of Income</td>
+                <td>Income</td>
+            </tr>
+            <tr>
+                <td>
+                    <select>
+                        <option value="select job" selected disabled>select job</option>
+                        <option value="Employed">Employed</option>
+                        <option value="Privet Job">Privet Job</option>
+                        <option value="Govt Job">Govt Job</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="range" name="salary" step="5" min="15" max="70" >
+                    <output name="output">42k</output>
+                </td>
+            </tr>
+            <tr>
+                <td>Upload Profile Picture</td>
+                <td>Age</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="file">  
+                </td>
+                <td>
+                    <input type="number" name="age" min="18">
+                </td>
+            </tr>
+            <tr>
+                <td>Bio</td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="bio"></textarea>
+                </td>
+            </tr>
+            <div>
+                <tr height="60" style="background-color: #eff0f1;">
+                    <td colspan="2" align="right">
+                        <input type="submit" name="creat" value="Creat" style="background-color: #1bba93; border-radius: 5px;">
+                    </td>
+                </tr>
+            </div>
+        </table>
+    </form>
+</font>
+</div>
+
+</body>
+</html>

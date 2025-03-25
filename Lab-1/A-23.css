@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(16, 22, 25, 0.512);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.color-box {
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box1 {
+    background: linear-gradient(45deg, #FCB8A3, #F3B181);
+}
+
+.box2 {
+    background: linear-gradient(45deg, #F54EA2, #FF7675);
+}
+
+.box3 {
+    background: linear-gradient(45deg, #1EAEDB, #607EEA);
+}
+
+.box4 {
+    background: linear-gradient(45deg, #622774, #C53664);
+}
+
+.box5 {
+    background: linear-gradient(45deg, #7117EA, #EA6060);
+}
+
+.box6 {
+    background: linear-gradient(45deg, #42E695, #3BB2B8);
+}
+
+.box7 {
+    background: linear-gradient(45deg, #F02FC2, #6094EA);
+}
+
+.box8 {
+    background: linear-gradient(45deg, #66798B, #5E5285);
+}
+
+.box9 {
+    background: linear-gradient(45deg, #1B6E86, #51CA85);
+}
+
+.box10 {
+    background: linear-gradient(45deg, #5B87A3, #1BCEDF);
+}
+
+.box11 {
+    background: linear-gradient(45deg, #74279C, #C53664);
+}
+
+.box12 {
+    background: linear-gradient(45deg, #274874, #6094FC);
+}
+
+.box13 {
+    background: linear-gradient(45deg, #B713A2, #D82968);
+}
+
+.box14 {
+    background: linear-gradient(45deg, #892BAD, #435AC6);
+}
+
+.box15 {
+    background: linear-gradient(45deg, #2B6174, #35C895);
+}
+
+.box16 {
+    background: linear-gradient(45deg, #574BCD, #2495A4);
+}
+
+.box17 {
+    background: linear-gradient(45deg, #383533, #B9585B);
+}
+
+.box18 {
+    background: linear-gradient(45deg, #5C274A, #352C5C);
+}
+
+.box19 {
+    background: linear-gradient(45deg, #E5A64F, #FC9F3A);
+}
+
+.box20 {
+    background: linear-gradient(45deg, #F17841, #CD4B69);
+}

@@ -1,0 +1,34 @@
+.main { 
+    margin: 0px;
+    padding: 0px;
+    background-color:brown;
+}
+
+.win {
+    background-color:aqua;
+    width: 8%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#win {
+    float: left;
+    height: 12vh;
+    width: 100%;
+}
+
+.link {
+    float: right;
+    height: 100%;
+    background-color: black;
+    /* margin-top: 4%; */
+}
+
+a{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.head {
+    height: 12vh;
+}

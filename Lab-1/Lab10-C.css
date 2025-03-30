@@ -1,0 +1,139 @@
+.body {
+    margin: 0%;
+    padding: 0%;
+    width: 75vw;
+    /* background-color: aqua; */
+}
+
+.up {
+    background-color: black;
+    height: 8vh;
+    width: 100%;
+    margin-bottom: 1vh;
+}
+
+.down {
+    background-color: black;
+    height: 8vh;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.abc {
+    height: 66.5vh;
+    /* background-color: blue; */
+    width: 126.1vh;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.head {
+    padding: 2vh 0vh 0vh 0vh;
+    height: 6vh;
+    width: 87.4%;
+    background-color: #c1282d;
+    text-align: center;
+    color: white;
+    margin-bottom: 1vh;
+}
+
+.nav {
+    /* height: 48vh; */
+    text-align: center;
+    background-color: #2d3194;
+    color: white;
+    float: left;
+}
+
+#nav {
+    padding: 20vh 1vh;
+}
+
+.content {
+    margin-left: 1vh;
+    height: 48vh;
+    width: 50%;
+    text-align: center;
+    background-color: #fdee21;
+    color: black;
+    float: left;
+}
+
+#con {
+    padding-top: 125px;
+}
+
+/* .ex {
+    height: 90px;
+    width: 655px;
+    background-color: #fdee21;
+} */
+
+.sidebar {
+    margin-left: 1vh;
+    width: 13.5%;
+    text-align: center;
+    background-color: #006837;
+    color: white;
+    float: left;
+}
+
+#side {
+    padding: 13vh 1vh;
+}
+
+.foot {
+    padding: 2vh 0vh 0vh 0vh;
+    height: 6vh;
+    width: 87.4%;
+    background-color: #2aabe2;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-top: 1vh;
+}
+
+pre {
+    font-size: larger;
+}
+
+@media only screen and (max-width: 330px) {
+    .up {
+        width: 100%;
+    }
+    .head {
+        width: 100%;
+    }
+    .nav {
+        float: none;
+    }
+    #nav {
+        margin: 0vh;
+        padding: 4vh 0vh;
+    }
+    .content {
+        margin-top: 0.5vh;
+        margin-left: 0vh;
+        width: 100%;
+    }
+    .abc {
+        height: 93vh;
+        width: auto;
+        margin-left: 0vh;
+    }
+    .sidebar {
+        margin-top: 0.5vh;
+        margin-left: 0vh;
+        width: 100%;
+    }
+    #side {
+        padding: 2vh 0vh;
+    }
+    .foot {
+        margin-bottom: 1vh;
+    }
+    .down {
+        margin-top: 0vh;
+        width: 100%;
+    }
+}

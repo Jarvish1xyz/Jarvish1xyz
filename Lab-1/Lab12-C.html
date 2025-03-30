@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            
+        }
+        input:valid {
+            border: 2px solid green;
+        }
+        input:invalid {
+            border: 2px solid red;
+        }
+        input:focus {
+            outline: 2px solid black;
+            padding: 4px;
+        }
+        button:active {
+            background-color: rgba(95, 95, 135, 0.573);
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    <label for="email">Email : </label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password : </label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="password" required minlength="8">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit"> Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

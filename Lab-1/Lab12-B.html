@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-27</title>
+    <style>
+        input {
+            background-color: azure;
+            border: 1px solid black;
+            border-radius: 30px;
+            padding: 2px 5px;
+            transition: all 0.6s;
+        }
+
+        input:focus {
+            background-color: lightblue;
+            border-radius: 0px;
+        }
+
+        a {
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .link, #link1 {
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        /* .link:hover {
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+            padding: 2px 5px;
+            border-radius: 10px;
+        } */
+        #link1:hover {
+            background-color: gray;
+            color: black;
+            border: 1px solid gray;
+            padding: 2px 5px;
+            border-radius: 10px;
+        }
+
+        table {
+            text-align: center;
+            height: 250px;
+            width: 250px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        td {
+            padding: 7px 6px;
+            border: 1px solid black;
+            border-radius: 10px;
+            transition: all 0.4s;
+        }
+        td:hover {
+            background-color: gray;
+            color: black;
+            border: 1px solid gray;
+            padding: 14px 12px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="name" placeholder="DL-Q33"> <br><br>
+
+    <div class="link">
+        <a href="" id="link1">Hover me.</a><br><br>
+        <a href="" id="link1">Hover me..</a><br><br>
+    </div>
+    <a href="" id="link2">Hover me...</a><br><br>
+    <a href="" id="link2">Hover me....</a><br><br>
+
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-19</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .main {
+            height: 100vh;
+            width: 100%;
+            background-color:black;
+        }
+
+        .box1 {
+            height: 120px;
+            width: 120px;
+            background-color:rgba(0, 0, 255, 0.2);
+            border-radius: 50%;
+            position: absolute;
+
+            animation-name: box1;
+            animation-duration: 10s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        .box2 {
+            height: 120px;
+            width: 120px;
+            background-color:rgba(255, 0, 0, 0.2);
+            border-radius: 50%;
+            position: absolute;
+
+            animation-name: box2;
+            animation-duration: 10s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        .box3 {
+            height: 120px;
+            width: 120px;
+            background-color: rgba(0, 255, 255, 0.2);
+            border-radius: 50%;
+            position: absolute;
+
+            animation-name: box3;
+            animation-duration: 10s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        .box4 {
+            height: 120px;
+            width: 120px;
+            background-color: rgba(70, 130, 180, 0.2);
+            border-radius: 50%;
+            position: absolute;
+
+            animation-name: box4;
+            animation-duration: 10s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        .box5 {
+            height: 120px;
+            width: 120px;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 50%;
+            position: absolute;
+
+            animation-name: box5;
+            animation-duration: 10s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes box1 {
+            0% {
+                top: 50%;
+                left: 50%;
+            }
+            33% {
+                top: 0%;
+                left: 0%;
+            }
+            66% {
+                top: 50%;
+                left: 0%;
+            }
+            100% {
+                top: 50%;
+                left: 50%;
+            }
+            
+        }
+        @keyframes box2 {
+            0% {
+                top: 50%;
+                left: 50%;
+            }
+            33% {
+                top: 0%;
+                left: calc(100% - 120px);
+            }
+            66% {
+                top: 0%;
+                left: 50%;
+            }
+            100% {
+                top: 50%;
+                left: 50%;
+            }
+        }
+        @keyframes box3 {
+            0% {
+                top: 50%;
+                left: 50%;
+            }
+            33% {
+                top: calc(100% - 120px);
+                left: calc(100% - 120px);
+            }
+            66% {
+                top: 50%;
+                left: calc(100% - 120px);
+            }
+            100% {
+                top: 50%;
+                left: 50%;
+            }
+        }
+        @keyframes box4 {
+            0% {
+                top: 50%;
+                left: 50%;
+            }
+            33% {
+                top: calc(100% - 120px);
+                left: 0%;
+            }
+            66% {
+                top: calc(100% - 120px);
+                left: 50%;
+            }
+            100% {
+                top: 50%;
+                left: 50%;
+            }
+        }
+        @keyframes box5 {
+            0% {
+                top: 50%;
+                left: 50%;
+            }
+            33% {
+                top: 50%;
+                left: 50%;
+            }
+            66% {
+                top: 50%;
+                left: 50%;
+            }
+            100% {
+                top: 50%;
+                left: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            <div class="box5"></div>
+        </div>
+    </div>
+</body>
+</html>

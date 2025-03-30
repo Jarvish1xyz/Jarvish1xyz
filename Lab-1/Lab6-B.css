@@ -1,0 +1,50 @@
+.link {
+    float: right;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+a{
+    margin-right: 18px;
+}
+
+.leftside {
+    float: left;
+    text-align: center;
+    background-color: red;
+    width: 250px;
+}
+
+.sidebar {
+    border: 1px solid #eeb875;
+    width: 250px;
+}
+
+.home, .placement, .recruitment, .faculty, .news {
+    border: 1px solid #eeb875;
+    width: 250px;
+    height: 50px;
+}
+
+#img1 {
+    margin-left: 15px;
+    width: 130px;
+}
+#img2 {
+    margin-left: 15px;
+    height: 73px;
+}
+
+p {
+    margin-top: -6px;
+}
+
+.footer {
+    height: 30px;
+    background-color: #0000fb;
+    padding-top: 9px;
+    padding-right: 180pxpx;
+    text-align: center;
+    margin-top: 40px;
+    color: #eaebfd;
+}

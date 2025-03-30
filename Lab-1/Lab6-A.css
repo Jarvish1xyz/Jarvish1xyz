@@ -1,0 +1,43 @@
+.page {
+    background-color:  #abd9e6;
+    width: 1000px;
+    height: 500px;
+}
+
+.body {
+    margin: 10px;
+}
+
+.head {
+    background-color: #85045e;
+    height: 20px;
+    color: white;
+}
+
+.content {
+    background-color: #ffa500;
+    height: 400px;
+}
+
+.entry {
+    background-color: #000000;
+    color: white;
+    width: 500px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.slider {
+    background-color: #000000;
+    color: white;
+    width: 400px;
+    height: 105px;
+    padding: 5px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: #0001fc;
+    color: white;
+}

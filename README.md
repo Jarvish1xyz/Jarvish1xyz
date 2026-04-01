@@ -1,6 +1,6 @@
 ## Hi there 👋, I'm Sinha Milan
 
-- 🔭 I’m currently working on Backend project MOM.
+- 🔭 I’m recently made a Full-Stack project MOM (Minutes Of Meeting).
 - 🌱 I’m currently learning about Networking. 
 - 📫 How to reach me: milans0415@gmail.com
 - ⚡ Fun fact: ...

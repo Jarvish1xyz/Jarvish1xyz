@@ -1,6 +1,6 @@
 ## Hi there 👋, I'm Milan Sinha
 
-- 🔭 I have recently made a Full-Stack project MOM (Minutes Of Meeting) Link: https://backend-mom.vercel.app.
+- 🔭 I have recently made a Full-Stack project Bus Management System for Unoversities Link: https://busofcampus.vercel.app.
 - 🌱 I’m currently learning about Networking. 
 - 📫 How to reach me: milans0415@gmail.com
 - ⚡ Fun fact: ...

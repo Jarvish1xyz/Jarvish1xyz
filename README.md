@@ -3,7 +3,7 @@
 - 🔭 I have recently made a Full-Stack project Bus Management System for Unoversities Link: https://busofcampus.vercel.app.
 - 🌱 I’m currently learning about Networking. 
 - 📫 How to reach me: milans0415@gmail.com
-- ⚡ Portfolio Website: Link: milansinha.vercel.app
+- ⚡ Portfolio Website: Link: https://milansinha.vercel.app
 ##
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Sinha__milan6) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sinha-milan) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/Jarvish1xyz) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:milans0415@gmail.com) 
